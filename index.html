@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Store | AG Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="images/Ag Logo.jpg" alt="">
+        <h1>AG Electronics Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="headphones.html">Headphones</a></li>
+                <li><a href="tv.html">TV</a></li>
+                <li><a href="cameras.html">Cameras</a></li>
+                <li><a href="homeapp.html">Home Appliances</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to the Best Electronics Store!</h2>
+        <p>Find the latest gadgets and accessories at unbeatable prices.</p>
+    </section>
+
+    <section class="slider">
+        <div><img src="images/Camera.jpg" alt="Slide 1"></div>
+        <div><img src="images/Laptop.jpg" alt="Slide 2"></div>
+        <div><img src="images/Headphones.jpg" alt="Slide 3"></div>
+    </section>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <a href="mobiles.html">
+                    <img src="images/Mobile1 (1).jpg" alt="Mobiles">
+                    <h3>Mobiles</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="laptops.html">
+                    <img src="images/Laptop.jpg" alt="Laptops">
+                    <h3>Laptops</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="cameras.html">
+                    <img src="images/Camera.jpg" alt="Cameras">
+                    <h3>Cameras</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="headphones.html">
+                    <img src="images/Headphones.jpg" alt="Headphones">
+                    <h3>Headphones</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="tv.html">
+                    <img src="images/tv1 (1).jpg" alt="Headphones">
+                    <h3>TV Entertainment</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="kitchen.html">
+                    <img src="images/kitchen1 (1).jpg" alt="Headphones">
+                    <h3>Kitchen Appliances</h3>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="homeapp.html">
+                    <img src="images/cooler2.jpg" alt="Headphones">
+                    <h3>Home Appliance</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>AG Electronics Store</h3>
+                <p>123 Main Street, Dewas, Madhya Pradesh, India</p>
+                <p>Email: support@agelectronics.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+    
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-right">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 AG Electronics Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: false,
+            });
+        });
+    </script>
+</body>
+</html>
